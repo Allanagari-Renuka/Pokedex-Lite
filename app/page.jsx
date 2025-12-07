@@ -144,7 +144,7 @@ export default function Home() {
       const end = start + ITEMS_PER_PAGE
       setDisplayedPokemon(filtered.slice(start, end))
       setCurrentPage(nextPage)
-      setTimeout(() => setIsPaginating(false), 200) // Small delay to prevent rapid clicks
+      setTimeout(() => setIsPaginating(false), 200) 
     }
   }
 
@@ -156,7 +156,7 @@ export default function Home() {
       const end = start + ITEMS_PER_PAGE
       setDisplayedPokemon(filtered.slice(start, end))
       setCurrentPage(prevPage)
-      setTimeout(() => setIsPaginating(false), 200) // Small delay to prevent rapid clicks
+      setTimeout(() => setIsPaginating(false), 200) 
     }
   }
 

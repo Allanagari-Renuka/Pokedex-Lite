@@ -9,7 +9,7 @@ export const metadata = {
   title: "Pokédex Lite - Explore Pokémon",
   description:
     "Discover and collect your favorite Pokémon with the Pokédex Lite app. Search, filter by type, and save your favorites!",
-  generator: "v0.app",
+  generator: "react.app",
   icons: {
     icon: [
       {

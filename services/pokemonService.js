@@ -1,4 +1,3 @@
-// PokéAPI service for fetching Pokémon data
 const API_BASE = "https://pokeapi.co/api/v2"
 
 export const pokemonService = {
